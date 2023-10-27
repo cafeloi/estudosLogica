@@ -5,12 +5,11 @@ programa
 	{
      real F
      real C
-   // F
-   escreva("um numero")
-   leia(F)
-   C = ((F -32) * 5 / 9)
+   escreva("digite um numero em Cº para ser convertido em firenheit >>> ")
+   leia(C)
+   F = (9 * C + 160)/5
 
-   escreva(C) 
+   escreva("A temperatura em firenheit é ",F) 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 113; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
